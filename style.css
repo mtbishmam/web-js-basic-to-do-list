@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.container{
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+
+}
+
+.todo-app{
+    background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
+    max-width: 700px;
+    width: 100%;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.todo-app h2{
+    font-family: sans-serif;
+    color: navy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    background-color: white;
+
+    
+}
+
+input{
+    flex:1;
+    border: none;
+    outline: none;
+    background:transparent;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+button{
+    border: none;
+    outline: none;
+    padding: 15px 50px;
+    color: white;
+    border: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    background:linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%) ;
+
+}
+
+ul li{
+    list-style: none;
+    font-size: 18px;
+    user-select: none;
+}
